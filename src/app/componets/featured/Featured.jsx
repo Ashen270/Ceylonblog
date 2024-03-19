@@ -4,7 +4,7 @@ import styles from './featured.module.css'
 
 const Featured = () => {
   return (
-    <div className='{styles.container}'>Featured</div>
+    <div className={styles.container}>Featured</div>
   )
 }
 
