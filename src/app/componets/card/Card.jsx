@@ -15,7 +15,7 @@ const Card = () => {
               <span className={styles.category}> Technology</span>
            </div>
            <Link href="/">
-            <h1>asdasdasdasdasdasdasdasd asdas ads asd</h1>
+            <h1 className={styles.title}>asdasdasdasdasdasdasdasd asdas ads asd</h1>
           </Link>
           <p className={styles.desc}>
             dasdsa as dasda sasdasdasadasdsad asdasdasdasdasdasdasdasd

@@ -10,17 +10,8 @@ const Featured = () => {
       <b>Hey, Ashen Here!</b> Discover my stories and creative ideas.
      </h1>
      <div className={styles.post}>
-            <div style={{
-                flex:1,
-                height: "500px",
-                position: "relative",
-                
-            }}>
-              <Image src="/p1.jpeg" fill style={{
-                objectFit: "cover",
-              }} alt="post"
-              
-              />
+            <div className={styles.imgContainer}>
+              <Image src="/p1.jpeg" fill alt="post" className={styles.image}/>
             </div>
            <div className={styles.textContainer}>
             <h1 className={styles.postTitle}> This is the Title </h1>
@@ -30,17 +21,7 @@ const Featured = () => {
               akdhasdhasdasoidjasoidjasdjasiodjasoidjasodjasoda
               aoisdasoduasoduaoiduasoi aoiduasoiduasoi aosiudsaoid
             </p>
-            <button style={{
-              
-                padding: "10px 20px",
-                border: "none",
-                cursor: "pointer",
-                borderRadius: "5px",
-                width: "max-content",
-
-            }}>
-               Read More
-               </button>
+            <button className={styles.button}>Read More</button>
            </div>
      </div>
     </div>
