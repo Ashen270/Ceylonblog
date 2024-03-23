@@ -30,11 +30,13 @@
 
 .date{
     color: gray;
+    margin-bottom: 35px;
 }
 
 .category{
-    color: crimson;
+    color: rgb(220, 157, 20);
     font-weight: 500;
+    margin-top: 35px;
 }
 
 .desc{
@@ -47,4 +49,5 @@
     border-bottom: 1px solid crimson;
     width: max-content;
     padding: 2px 0px;
+    margin-bottom: 30px;
 }

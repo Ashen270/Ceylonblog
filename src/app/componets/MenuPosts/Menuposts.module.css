@@ -12,11 +12,8 @@
 
 .title{
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
    
-
+}
 
 .items{
     margin-top: 35px;
@@ -60,8 +57,6 @@
     font-size: 12px;
     color: white;
     width: max-content;
-    margin-right: 10px;
-    height: 20px;
 }
 
 .category.travel{

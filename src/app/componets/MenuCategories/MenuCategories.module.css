@@ -1,0 +1,40 @@
+.categoryLsit{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoryItem{
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+   
+
+}
+
+.categoryItem.style{
+    background-color: #FFBE98;
+}
+
+.categoryItem.fashion{
+    background-color: #8B93FF;
+}
+.categoryItem.food{
+    background-color: #FFAF45;
+}
+.categoryItem.culture{
+    background-color: #F7418F;
+}
+.categoryItem.travel{
+    background-color: #4CCD99;
+}
+.categoryItem.technology{
+    background-color: #008DDA;
+}
+
+
+
+
