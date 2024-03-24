@@ -39,10 +39,14 @@
     .burger{
         display: flex;
     }
+    .link{
+        display: none;
+    }
+
+    .logoutnav{
+        display: none;
+    }
+    
 }
 
-
-.link{
-    display: none;
-}
 

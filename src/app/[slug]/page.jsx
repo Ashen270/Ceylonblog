@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './singlePage.module.css'
 import Menu from '../componets/Menu/Menu'
 import Image from 'next/image'
+import Comments from '../componets/Comments/Comments'
 const SinglePage = () => {
   return (
     <div className={styles.container}>
@@ -50,6 +51,9 @@ const SinglePage = () => {
                 akjdklasdjkalsdjsaldjaslkdjasdsad aadsasda asdasd kjhkl ldjlaskdjlaks 
                 akjdklasdjkalsdjsaldjaslkdjasdsad aads adasdasddsadasdsad
                 </p>
+            </div>
+            <div className={styles.comments}>
+             <Comments />
             </div>
          </div>
           <Menu />       

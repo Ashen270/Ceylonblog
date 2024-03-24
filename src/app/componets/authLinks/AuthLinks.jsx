@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React from 'react'
 import styles from './AuthLinks.module.css'
 import Link from 'next/link'
@@ -21,10 +21,10 @@ const AuthLinks = () => {
       ) : (
 
       <>
-        <Link href="/wriite" className={styles.link}>
+        <Link href="/Write" className={styles.link}>
           Write
           </Link>
-        <span>Logout</span>
+        <span  className={styles.link}>Logout</span>
       </>
       )}
       <div className={styles.burger}
@@ -45,7 +45,7 @@ const AuthLinks = () => {
 
       ) : (
       <>
-        <Link href="/wriite"> <span>Logout</span></Link>
+        <Link href="/Write"> <span>Logout</span></Link>
         
       </>
       )}
