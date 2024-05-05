@@ -4,6 +4,7 @@ import Footer from "./componets/footer/Footer"
 import NavBar from './componets/navbar/NavBar'
 import { ThemeContextProvider } from './context/ThemeContext'
 import ThemeProviders from './providers/ThemeProvider'
+import { AuthProvider } from './providers/AuthProvider'
 
 
 
@@ -11,13 +12,15 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Ceylon Blog',
-  description: 'The best blog app!',
+  description: 'Its about Srilanka',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <AuthProvider>
+       
          <ThemeContextProvider>
           <ThemeProviders>
           <div className="container">
@@ -29,6 +32,8 @@ export default function RootLayout({ children }) {
             </div>
            </ThemeProviders>
           </ThemeContextProvider>
+          </AuthProvider>
+        
       </body>
     </html>
   )
