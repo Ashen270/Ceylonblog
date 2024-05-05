@@ -10,7 +10,7 @@ import ThemeProviders from './providers/ThemeProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Blog App',
+  title: 'Ceylon Blog',
   description: 'The best blog app!',
 }
 
